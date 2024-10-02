@@ -17,6 +17,7 @@ class Auto:
     # 4. Se define el metodo get_anio que retorna el valor del atributo anio
     def get_anio(self):
         return self.anio
+        print("El año no puede ser mayor a 2021")
 
     # 5. Se define el metodo set_anio que recibe un valor y lo asigna al atributo anio
     def set_anio(self, anio):
