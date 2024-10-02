@@ -6,11 +6,13 @@ class Auto:
         # Se inicializan los atributos de la clase
         self.anio = anio
         self.color = color
-        self.kms =  kms 
+        self.kms =  kms
+        # Se inicializan los atributos de la clase
+        #hola soy marcos 
 
     # 3. Se define el metodo __str__ que retorna una cadena de texto con los atributos del objeto cuando se imprime
     def __str__(self):
-        return f"el auto es del año {self.anio}, de color {self.color}, y tiene {self.kms} kms"
+        return f"{self.anio},{self.color}, {self.kms} kms"
     
     # 4. Se define el metodo get_anio que retorna el valor del atributo anio
     def get_anio(self):
